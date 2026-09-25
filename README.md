@@ -17,7 +17,7 @@ The main source code is:
 Compile the program in slurm script  using:
 
 ```bash
-module load
+module load mpich/gcc/3.2.1
 
 mpicc project.c -o project
 
