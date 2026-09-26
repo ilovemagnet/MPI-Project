@@ -9,13 +9,13 @@ int main(int argc, char *argv[]){
     MPI_Comm_rank(MPI_COMM_WORLD , &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
     if (rank==0){
-        printf("Hello world from processor %d of %d processors. \n", rank, size);
+        printf("Hello from processor %d. \n", rank);
         MPI_Send(&rank, 1, MPI_INT, rank+1, 0 , MPI_COMM_WORLD);
     }
     else{
         int number = 0;
         MPI_Recv(&number, 1, MPI_INT, rank-1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-        printf("Hello world from processor %d of %d processors. \n", rank, size);
+        printf("Hello from processor %d. \n", rank);
         if(rank<size-1){
             MPI_Send(&rank, 1, MPI_INT, rank+1, 0, MPI_COMM_WORLD);
         }
