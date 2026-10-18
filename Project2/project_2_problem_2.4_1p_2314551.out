@@ -1,0 +1,37 @@
+Loading mpich/gcc/3.4.2
+  Loading requirement: gcc/11.2.0 ucx/1.8.1
+MPI processes: 1
+Total attempts: 18150
+Converged attempts: 16344
+Total gathered local-unique roots: 155
+Globally unique roots: 155
+
+20 selected roots:
+ 1: x = -0.3582395468, y = -0.9606913754, u = 5.413e-15
+ 2: x = 0.9048578738, y = 0.9975423342, u = 1.953e-18
+ 3: x = -0.6210641824, y = 0.8633641059, u = 5.147e-22
+ 4: x = 0.9601550909, y = -0.8664969770, u = 2.751e-26
+ 5: x = -0.0000000426, y = 0.0031472930, u = 4.895e-15
+ 6: x = -0.9947801022, y = -0.1923503480, u = 1.293e-16
+ 7: x = 0.8812566406, y = 0.1690697963, u = 6.917e-19
+ 8: x = -0.0000000000, y = 0.6798033351, u = 2.214e-21
+ 9: x = 0.3263005693, y = -0.9633530762, u = 1.242e-17
+10: x = 0.5670072790, y = 0.6097330415, u = 2.353e-25
+11: x = -0.8100609118, y = -0.7290822324, u = 2.518e-18
+12: x = -0.5275526119, y = 0.3831763236, u = 8.412e-23
+13: x = 0.8600204645, y = -0.3073827418, u = 4.412e-26
+14: x = 0.0000000000, y = -0.6798033351, u = 9.553e-22
+15: x = 0.3289214033, y = 0.9589232425, u = 4.990e-21
+16: x = -0.9064746149, y = 0.2273797893, u = 4.086e-30
+17: x = 0.5931935583, y = -0.5664579006, u = 4.284e-18
+18: x = 0.6273471954, y = -0.8687040544, u = 5.706e-22
+19: x = -0.0000000000, y = -0.9804460679, u = 1.367e-19
+20: x = 0.0000000005, y = 0.9804460675, u = 6.671e-17
+
+Minimum distance between selected roots: 0.3006427324
+
+Rank 0, execution time: 0.05958453 seconds,local unique roots: 155
+
+Abort(873060870) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Send: Invalid rank, error stack:
+PMPI_Send(157): MPI_Send(buf=0x7fffffffb77c, count=1, MPI_INT, dest=1, tag=0, MPI_COMM_WORLD) failed
+PMPI_Send(94).: Invalid rank has value 1 but must be nonnegative and less than 1

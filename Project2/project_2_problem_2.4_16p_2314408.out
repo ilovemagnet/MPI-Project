@@ -1,0 +1,64 @@
+Loading mpich/gcc/3.4.2
+  Loading requirement: gcc/11.2.0 ucx/1.8.1
+MPI processes: 16
+Total attempts: 18150
+Converged attempts: 16344
+Total gathered local-unique roots: 896
+Globally unique roots: 155
+
+20 selected roots:
+ 1: x = -0.3582395488, y = -0.9606913780, u = 4.876e-16
+ 2: x = 0.9048578738, y = 0.9975423342, u = 1.578e-18
+ 3: x = -0.6210641824, y = 0.8633641059, u = 4.129e-21
+ 4: x = 0.9601550910, y = -0.8664969770, u = 3.755e-21
+ 5: x = -0.0000000426, y = 0.0031472930, u = 4.895e-15
+ 6: x = -0.9947801018, y = -0.1923503473, u = 2.344e-27
+ 7: x = 0.8812566406, y = 0.1690697963, u = 6.917e-19
+ 8: x = -0.0000000002, y = 0.6798033349, u = 6.377e-18
+ 9: x = 0.3263005690, y = -0.9633530762, u = 4.216e-29
+10: x = 0.5670072790, y = 0.6097330415, u = 9.062e-28
+11: x = -0.8100609126, y = -0.7290822337, u = 4.402e-17
+12: x = -0.5275526119, y = 0.3831763236, u = 1.000e-22
+13: x = 0.8600204648, y = -0.3073827409, u = 2.621e-18
+14: x = 0.0000000000, y = -0.6798033351, u = 4.209e-22
+15: x = 0.3289214031, y = 0.9589232426, u = 3.554e-18
+16: x = -0.9064746152, y = 0.2273797884, u = 8.002e-17
+17: x = 0.5931935552, y = -0.5664579088, u = 4.142e-15
+18: x = 0.6273471955, y = -0.8687040545, u = 5.372e-18
+19: x = 0.0000000000, y = -0.9804460680, u = 3.704e-22
+20: x = 0.0000000006, y = 0.9804460676, u = 3.921e-17
+
+Minimum distance between selected roots: 0.3006427327
+
+Rank 0, execution time: 0.00452202 seconds,local unique roots: 56
+
+Rank 1, execution time: 0.00380978 seconds,local unique roots: 55
+
+Rank 2, execution time: 0.00390212 seconds,local unique roots: 56
+
+Rank 3, execution time: 0.00386941 seconds,local unique roots: 53
+
+Rank 4, execution time: 0.00397322 seconds,local unique roots: 58
+
+Rank 5, execution time: 0.00396308 seconds,local unique roots: 55
+
+Rank 6, execution time: 0.00395062 seconds,local unique roots: 58
+
+Rank 7, execution time: 0.00391231 seconds,local unique roots: 56
+
+Rank 8, execution time: 0.00394972 seconds,local unique roots: 58
+
+Rank 9, execution time: 0.00387530 seconds,local unique roots: 56
+
+Rank 10, execution time: 0.00390905 seconds,local unique roots: 53
+
+Rank 11, execution time: 0.00386834 seconds,local unique roots: 59
+
+Rank 12, execution time: 0.00392218 seconds,local unique roots: 58
+
+Rank 13, execution time: 0.00389718 seconds,local unique roots: 55
+
+Rank 14, execution time: 0.00389060 seconds,local unique roots: 56
+
+Rank 15, execution time: 0.00383745 seconds,local unique roots: 54
+

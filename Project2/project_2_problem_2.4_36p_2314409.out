@@ -1,0 +1,104 @@
+Loading mpich/gcc/3.4.2
+  Loading requirement: gcc/11.2.0 ucx/1.8.1
+MPI processes: 36
+Total attempts: 18150
+Converged attempts: 16344
+Total gathered local-unique roots: 1555
+Globally unique roots: 155
+
+20 selected roots:
+ 1: x = -0.3582395494, y = -0.9606913797, u = 1.589e-16
+ 2: x = 0.9048578738, y = 0.9975423342, u = 1.238e-24
+ 3: x = -0.6210641824, y = 0.8633641059, u = 1.315e-29
+ 4: x = 0.9601550909, y = -0.8664969770, u = 4.203e-21
+ 5: x = -0.0000000426, y = 0.0031472930, u = 4.895e-15
+ 6: x = -0.9947801018, y = -0.1923503473, u = 2.948e-19
+ 7: x = 0.8812566405, y = 0.1690697962, u = 3.674e-31
+ 8: x = 0.0000000000, y = 0.6798033351, u = 3.765e-24
+ 9: x = 0.3263005690, y = -0.9633530762, u = 4.216e-29
+10: x = 0.5670072790, y = 0.6097330415, u = 3.818e-22
+11: x = -0.8100609113, y = -0.7290822318, u = 1.552e-21
+12: x = -0.5275526118, y = 0.3831763238, u = 1.183e-18
+13: x = 0.8600204645, y = -0.3073827418, u = 8.610e-23
+14: x = 0.0000000000, y = -0.6798033352, u = 3.770e-19
+15: x = 0.3289214033, y = 0.9589232425, u = 3.336e-27
+16: x = -0.9064746149, y = 0.2273797893, u = 4.086e-30
+17: x = 0.5931935584, y = -0.5664579003, u = 5.615e-23
+18: x = 0.6273471955, y = -0.8687040545, u = 5.372e-18
+19: x = 0.0000000000, y = 0.9804460680, u = 3.267e-25
+20: x = -0.0000000000, y = -0.9804460680, u = 1.727e-18
+
+Minimum distance between selected roots: 0.3006427328
+
+Rank 0, execution time: 0.00430286 seconds,local unique roots: 44
+
+Rank 1, execution time: 0.00358088 seconds,local unique roots: 46
+
+Rank 2, execution time: 0.00362483 seconds,local unique roots: 40
+
+Rank 3, execution time: 0.00360255 seconds,local unique roots: 41
+
+Rank 4, execution time: 0.00304991 seconds,local unique roots: 45
+
+Rank 5, execution time: 0.00301984 seconds,local unique roots: 41
+
+Rank 6, execution time: 0.00305537 seconds,local unique roots: 40
+
+Rank 7, execution time: 0.00303820 seconds,local unique roots: 41
+
+Rank 8, execution time: 0.00322741 seconds,local unique roots: 43
+
+Rank 9, execution time: 0.00301280 seconds,local unique roots: 43
+
+Rank 10, execution time: 0.00304168 seconds,local unique roots: 40
+
+Rank 11, execution time: 0.00309665 seconds,local unique roots: 46
+
+Rank 12, execution time: 0.00301593 seconds,local unique roots: 46
+
+Rank 13, execution time: 0.00307792 seconds,local unique roots: 44
+
+Rank 14, execution time: 0.00307447 seconds,local unique roots: 40
+
+Rank 15, execution time: 0.00309402 seconds,local unique roots: 43
+
+Rank 16, execution time: 0.00380852 seconds,local unique roots: 42
+
+Rank 17, execution time: 0.00373902 seconds,local unique roots: 45
+
+Rank 18, execution time: 0.00368228 seconds,local unique roots: 45
+
+Rank 19, execution time: 0.00370865 seconds,local unique roots: 43
+
+Rank 20, execution time: 0.00318271 seconds,local unique roots: 43
+
+Rank 21, execution time: 0.00313279 seconds,local unique roots: 39
+
+Rank 22, execution time: 0.00314658 seconds,local unique roots: 46
+
+Rank 23, execution time: 0.00316799 seconds,local unique roots: 42
+
+Rank 24, execution time: 0.00310430 seconds,local unique roots: 46
+
+Rank 25, execution time: 0.00315861 seconds,local unique roots: 40
+
+Rank 26, execution time: 0.00321757 seconds,local unique roots: 43
+
+Rank 27, execution time: 0.00317821 seconds,local unique roots: 42
+
+Rank 28, execution time: 0.00307529 seconds,local unique roots: 44
+
+Rank 29, execution time: 0.00306273 seconds,local unique roots: 42
+
+Rank 30, execution time: 0.00324910 seconds,local unique roots: 48
+
+Rank 31, execution time: 0.00318194 seconds,local unique roots: 42
+
+Rank 32, execution time: 0.00379586 seconds,local unique roots: 42
+
+Rank 33, execution time: 0.00382513 seconds,local unique roots: 45
+
+Rank 34, execution time: 0.00379861 seconds,local unique roots: 46
+
+Rank 35, execution time: 0.00381758 seconds,local unique roots: 47
+
