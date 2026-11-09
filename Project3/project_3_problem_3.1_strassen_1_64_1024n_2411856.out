@@ -1,0 +1,11 @@
+Loading mpich/gcc/3.4.2
+  Loading requirement: gcc/11.2.0 ucx/1.8.1
+
+MPI Strassen Matrix Multiplication
+Matrix size: 1024 x 1024
+MPI processes: 64
+Recursion levels: 1
+Leaf matrix size: 512 x 512
+Total leaf tasks: 7
+Execution time: 0.132210 seconds
+Checksum: -4.611802228238e+03

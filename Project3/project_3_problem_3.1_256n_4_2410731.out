@@ -1,0 +1,10 @@
+Loading mpich/gcc/3.4.2
+  Loading requirement: gcc/11.2.0 ucx/1.8.1
+
+MPI Fox Matrix Multiplication
+Matrix size: 256 x 256
+MPI processes: 4
+Process grid: 2 x 2
+Block size: 128 x 128
+Execution time: 0.004520 seconds
+Checksum: -8.527560353372e+02

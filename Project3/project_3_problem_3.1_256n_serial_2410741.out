@@ -1,0 +1,6 @@
+Loading mpich/gcc/3.4.2
+  Loading requirement: gcc/11.2.0 ucx/1.8.1
+Matrix multiplication: Serial
+Matrix size: 256 x 256
+Execution time: 0.008220 seconds
+Checksum: -8.527560353372e+02
